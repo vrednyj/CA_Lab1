@@ -12,7 +12,7 @@ list=[]
 def numbers():
     for i in range(10):
         list.append(i)
-
+    #print(list)
     return str(list)
 
 if __name__ == '__main__':

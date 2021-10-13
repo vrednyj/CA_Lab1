@@ -14,6 +14,6 @@ def numbers():
         list.append(i)
 
     return (list)
-output=numbers()
 
-print(output)
+if __name__ == '__main__':
+    numbers()

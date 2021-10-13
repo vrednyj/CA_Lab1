@@ -16,6 +16,7 @@ jobs:
           command: |
             coverage run tests.py
             coverage xml
+          
       - codecov/upload
 
 workflow:

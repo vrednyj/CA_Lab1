@@ -39,4 +39,5 @@ jobs:
       run: |
         pytest tests.py
     - name: Running CA_Lab1.py
+      run: |
         python pkg/CA_Lab1.py

@@ -33,4 +33,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest pkg/Lab4_Q3.py
+        pytest pkg/CA_Lab1.py

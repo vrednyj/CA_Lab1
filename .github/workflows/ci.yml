@@ -16,6 +16,6 @@ jobs:
         run: |
           coverage run tests.py
           coverage xml
-          pytest run pkg/App.py
+          pytest pkg/Lab4_Q3.py
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2

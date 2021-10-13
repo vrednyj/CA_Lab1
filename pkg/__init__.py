@@ -8,9 +8,3 @@
 # Copyright:   (c) Vitaliy Baseckas 2021
 # Licence:     <your licence>
 # -------------------------------------------------------------------------------
-def smile():
-    return ":)"
-
-def frown():
-    return ":("
-    

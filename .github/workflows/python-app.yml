@@ -36,6 +36,6 @@ jobs:
         pytest tests.py
     - name: Test with coverage
       run: |      
-        cd pkg coverage run -m unittest discover && coverage report
+        cd pkg && coverage run -m unittest discover && coverage report
  
 
